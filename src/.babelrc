@@ -1,0 +1,19 @@
+{
+    // "plugins" : [
+    //     "@babel/plugin-transform-template-literals",
+    //     "@babel/plugin-transform-classes",
+    //     "@babel/plugin-transform-block-scoping"
+    // ],
+    "presets" : [[
+        "@babel/env", 
+        // Вторым параметром указываем какие конкретные версии браузера будем поддерживать
+        {
+            "targets": {
+                "edge": "18",
+                "chrome": "74",
+                // "ie" : 11
+            }
+        }]],
+    "plugins": [ "@babel/proposal-class-properties"]
+
+}
