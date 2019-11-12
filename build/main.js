@@ -4,7 +4,8 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 class App {
   constructor() {
-    _defineProperty(this, "run", async (name = "World") => {
+    _defineProperty(this, "run", async function () {
+      let name = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : "World";
       console.log(`Hello ${name}`);
     });
   } //   constructor() {
