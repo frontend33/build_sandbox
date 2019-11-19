@@ -20,3 +20,13 @@ browserlist отвечает за парсинг выражений
 .babelrc - в настройках preset-env
 package.json в блоке browserslist
 В файле .browserslistrc в каждой строке по отдельному выражению
+
+*** Полифил  ***
+npm install core-js
+Polyfills код который добавляет глобальную функцию (если ее еще нет в браузере)
+core-js библиотека полифиллов
+конфигурация .babelrc:
+"presets": [["babel/env", {
+    "corejs: 3,
+    "useBuiltIns": "usage
+}]]
