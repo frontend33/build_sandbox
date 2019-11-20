@@ -129,7 +129,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"46ff76b1e206d3bfd2a1e1c3a61da6da.png\";\n\n//# sourceURL=webpack:///./src/wb.png?");
+eval("module.exports = __webpack_require__.p + \"images/wb-62249b4.png\";\n\n//# sourceURL=webpack:///./src/wb.png?");
 
 /***/ })
 
