@@ -106,7 +106,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _log__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./log */ \"./src/log.js\");\n/* harmony import */ var _calc__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./calc */ \"./src/calc.js\");\n\n\nconst calc = new _calc__WEBPACK_IMPORTED_MODULE_1__[\"default\"]()\nconst log = new _log__WEBPACK_IMPORTED_MODULE_0__[\"default\"]()\nlog.log(calc.add(1,2,3))\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _log__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./log */ \"./src/log.js\");\n/* harmony import */ var _calc__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./calc */ \"./src/calc.js\");\n/* harmony import */ var _wb_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./wb.png */ \"./src/wb.png\");\n/* harmony import */ var _wb_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_wb_png__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\nconst calc = new _calc__WEBPACK_IMPORTED_MODULE_1__[\"default\"]()\nconst log = new _log__WEBPACK_IMPORTED_MODULE_0__[\"default\"]()\nlog.log(calc.add(1,2,3))\n\nconst el = document.createElement('img')\nel.src = _wb_png__WEBPACK_IMPORTED_MODULE_2___default.a\ndocument.body.appendChild(el)\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
@@ -119,6 +119,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _log
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return Log; });\nclass Log {\n    log(msg) {\n        console.log(\"=========\")\n        console.log(msg)\n        console.log(\"=========\")\n    }\n}\n\n//# sourceURL=webpack:///./src/log.js?");
+
+/***/ }),
+
+/***/ "./src/wb.png":
+/*!********************!*\
+  !*** ./src/wb.png ***!
+  \********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"46ff76b1e206d3bfd2a1e1c3a61da6da.png\";\n\n//# sourceURL=webpack:///./src/wb.png?");
 
 /***/ })
 
